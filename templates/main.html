@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Compare Crypto</title>
+{% endblock %}
+
+{% block body %}
+<div class="header">
+    <img src="{{ url_for('static', filename='/images/btc.png') }}" alt="btcImg" id="btcImg"><h2>Compare Crypto</h2>
+</div>
+
+<div class="search">
+    <form action="graph" method="post" id="comapreForm">
+        First crypto:<br>
+        <input type="text" id="cryptoFirst" name="fc"><br>
+        Second crypto:<br>
+        <input type="text" id="cryptoSecond" name="sc"><br>
+        <input type="submit" name="compareBtn" id="compareBtn" value="Compare">
+    </form>
+</div>
+
+<div class="footer">
+    <p>Copyright © 2023 Hubert Świtkowski</p>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(43, 40, 65);
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    font-size: 200%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+#btcImg {
+    height: 100px;
+    width: auto;
+    margin-top: 1%;
+}
+
+.search {
+    text-align: center;
+}
+
+#cryptoFirst, #cryptoSecond {
+    border-radius: 10px;
+}
+
+.search input {
+    margin: 0.5%;
+}
+
+#compareBtn {
+    background-color: rgb(180, 134, 50);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#compareBtn:hover {
+    background-color: rgb(245, 183, 13);
+}
+
+.footer {
+    text-align: center;
+    font-size: 50%;
+}
